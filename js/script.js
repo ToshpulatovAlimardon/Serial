@@ -19,6 +19,9 @@ window.addEventListener("DOMContentLoaded", () => {
         tabs[i].classList.add("tabheader__item_active");
     }
 
+    hideTabContent();
+    showTabContent();
+
     tabsParent.addEventListener("click", (event) => {
         const target = event.target;
         if (target && target.classList.contains("tabheader__item")) {

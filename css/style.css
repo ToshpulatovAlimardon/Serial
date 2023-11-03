@@ -181,6 +181,7 @@ a {
 }
 .tabcontent {
   width: 850px;
+  height: 480px;
   position: relative;
 }
 .tabcontent img {
